@@ -257,6 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089300525}
   - component: {fileID: 1089300524}
+  - component: {fileID: 1089300526}
   m_Layer: 0
   m_Name: in-love
   m_TagString: Untagged
@@ -321,6 +322,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1366862551
 GameObject:
   m_ObjectHideFlags: 0
@@ -411,6 +413,33 @@ MonoBehaviour:
   ObstaclePrefab: {fileID: 1777151345786220, guid: 694154574eac32c45b321866f0395d42,
     type: 2}
   SpawnX: 10
+=======
+--- !u!61 &1089300526
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089300523}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.56, y: 2.56}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.56, y: 2.56}
+  m_EdgeRadius: 0
+>>>>>>> 8fe8476196e7a728cd9fb696c21d3767a147d55a
 --- !u!1 &1520883088
 GameObject:
   m_ObjectHideFlags: 0
