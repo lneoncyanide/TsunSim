@@ -8,7 +8,7 @@ public class CharacterSelection : MonoBehaviour
 	private GameObject[] characterList;
 	private int index;
 
-	private void Start ()
+	private void Start()
 	{
 		index = PlayerPrefs.GetInt ("CharacterSelected");
 
@@ -27,7 +27,7 @@ public class CharacterSelection : MonoBehaviour
 			characterList [index].SetActive (true);
 	}
 
-	public void ToggleLeft ()
+	public void ToggleLeft()
 
 	{
 		//Toggle off the current model
