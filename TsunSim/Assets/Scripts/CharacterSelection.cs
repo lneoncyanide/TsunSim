@@ -22,9 +22,9 @@ public class CharacterSelection : MonoBehaviour
 		foreach (GameObject go in characterList)
 			go.SetActive (false);
 
-		// We toggle on the first index
-		if (characterList [0])
-			characterList [0].SetActive (true);
+		// We toggle on the selected character
+		if (characterList [index])
+			characterList [index].SetActive (true);
 	}
 
 	public void ToggleLeft ()
