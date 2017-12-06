@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bird : MonoBehaviour {
-    private bool isDead;
+public class NewBehaviourScript : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 		
