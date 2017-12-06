@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-public class main_menu : MonoBehaviour {
-    public void Load_scene_name (string scene_name)
+public class Main_menu : MonoBehaviour {
+    public void Scene_selection (string name)
     {
-        SceneManager.LoadScene(scene_name);
+        SceneManager.LoadScene(name);
     }
-
 }
