@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
-public class Main_menu : MonoBehaviour {
-    public void Scene_selection (string name)
+
+public class main_menu : MonoBehaviour {
+
+
+    public void Select_scene (string name)
     {
         SceneManager.LoadScene(name);
     }
